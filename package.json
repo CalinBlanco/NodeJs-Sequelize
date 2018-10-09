@@ -1,0 +1,29 @@
+{
+    "name": "nodesequelize",
+    "version": "1.0.0",
+    "description": "Aplicación integrando Nodejs y Sequelize",
+    "main": "server.js",
+    "engines": {
+        "node": "8.11.1",
+        "npm": "6.4.1"
+    },
+    "scripts": {
+        "start": "nodemon server/server.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Carlos Blanco",
+    "license": "ISC",
+    "dependencies": {
+        "bcryptjs": "^2.4.3",
+        "body-parser": "^1.18.3",
+        "email-validator": "^2.0.4",
+        "express": "^4.16.3",
+        "express-fileupload": "^1.0.0-alpha.1",
+        "jsonwebtoken": "^8.3.0",
+        "mysql2": "^1.6.1",
+        "nodemon": "^1.18.4",
+        "sequelize": "^4.39.0",
+        "sequelize-transforms": "^2.0.0"
+    },
+    "devDependencies": {}
+}
